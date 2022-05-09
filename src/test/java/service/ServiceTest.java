@@ -68,11 +68,11 @@ public class ServiceTest {
         assertEquals(1, service.updateStudent( "krim1923", "KR", groupId));
     }
 
-    @ParameterizedTest
-    @CsvSource({"1,8", "2,11"})
-    public void deadlineShouldBeExtended(String id, int noWeeks) {
-        assertEquals(1, service.extendDeadline(id, noWeeks));
-    }
+//    @ParameterizedTest
+//    @CsvSource({"1,8", "2,11"})
+//    public void deadlineShouldBeExtended(String id, int noWeeks) {
+//        assertEquals(1, service.extendDeadline(id, noWeeks));
+//    }
 
     @Test
     public void homeworkShouldBeDeleted() {
