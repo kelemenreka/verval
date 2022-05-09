@@ -52,7 +52,7 @@ public class ServiceTest {
     @Test
     public void studentShouldBeSaved() {
         int returnValue = service.saveStudent("krim1923", "Kelemen Reka", 532);
-        assertEquals(0, returnValue);
+        assertEquals(1, returnValue);
     }
 
     @Test
